@@ -32,8 +32,8 @@ defmodule StoneMarkets.MixProject do
   end
 
   # Specifies which paths to compile per environment.
-  defp elixirc_paths(:test), do: ["lib", "test/support"]
-  defp elixirc_paths(_), do: ["lib"]
+  defp elixirc_paths(:prod), do: ["lib"]
+  defp elixirc_paths(_), do: ["lib", "test/support"]
 
   # Specifies your project dependencies.
   #
@@ -44,12 +44,14 @@ defmodule StoneMarkets.MixProject do
       {:ecto_rescope, "~> 0.1.0"},
       {:ecto_sql, "~> 3.7.0"},
       {:excoveralls, "~> 0.10", only: :test},
+      {:ex_machina, "~> 2.5.0", only: [:dev, :test]},
       {:gettext, "~> 0.11"},
       {:guardian, "~> 2.0"},
       {:hackney, "~> 1.17"},
       {:jason, "~> 1.0"},
       {:memoize, "~> 1.4"},
       {:mox, "~> 1.0", only: :test},
+      {:pbkdf2_elixir, "~> 1.4"},
       {:phoenix, "~> 1.5.8"},
       {:phoenix_ecto, "~> 4.1"},
       {:phoenix_live_dashboard, "~> 0.4"},
