@@ -1,7 +1,7 @@
 defmodule StoneMarketsWeb.Plugs.StorageSigned do
   import Plug.Conn
 
-  alias Testing.BackgroundStorage
+  alias StoneMarkets.BackgroundStorage
 
   def init(opts), do: opts
 

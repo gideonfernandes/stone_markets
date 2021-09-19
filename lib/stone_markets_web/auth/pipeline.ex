@@ -1,5 +1,5 @@
 defmodule StoneMarketsWeb.Auth.Pipeline do
-  use Guardian.Plug.Pipeline, otp_app: :testing
+  use Guardian.Plug.Pipeline, otp_app: :stone_markets
 
   plug(Guardian.Plug.VerifyHeader)
   plug(Guardian.Plug.EnsureAuthenticated)
