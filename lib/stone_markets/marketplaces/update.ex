@@ -14,11 +14,12 @@ defmodule StoneMarkets.Marketplaces.Update do
   }
 
   def call(%{"id" => id, "currency_code" => currency_code}) do
-    with %Marketplace{} = marketplace <- Repo.get(Marketplace, id),
+    with %Marketplace{default_currency_id: old_currency_id} = marketplace <-
+           Repo.get(Marketplace, id),
          {:ok, currency} <- StoneMarkets.fetch_currency_by(:code, currency_code),
          true <- is_already_current_currency?(currency, marketplace),
          {:ok, marketplace} <- do_update(marketplace, currency.id) do
-      {:ok, marketplace, old_currency_id: marketplace.default_currency_id}
+      {:ok, marketplace, old_currency_id: old_currency_id}
     else
       nil -> {:error, ResourceNotFound.call("Marketplace")}
       false -> {:error, CurrencyProvidedIsAlreadyCurrent.call()}
