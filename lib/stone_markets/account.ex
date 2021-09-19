@@ -56,4 +56,13 @@ defmodule StoneMarkets.Account do
   defp check_account_owner(false, changeset) do
     add_error(changeset, :base, "At least one owner is required")
   end
+
+  defimpl Jason.Encoder, for: __MODULE__ do
+    def encode(account, opts) do
+      account
+      |> Map.take(~w(id balance code)a)
+      |> Map.merge(%{balance: FormatMonetaryValue.call(account.balance)})
+      |> Jason.Encode.map(opts)
+    end
+  end
 end

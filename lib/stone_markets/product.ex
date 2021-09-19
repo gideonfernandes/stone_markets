@@ -43,4 +43,13 @@ defmodule StoneMarkets.Product do
   end
 
   def with_positive_amount(query), do: from(q in query, where: q.amount >= 1)
+
+  defimpl Jason.Encoder, for: __MODULE__ do
+    def encode(product, opts) do
+      product
+      |> Map.take(~w(id amount category description name price marketplace_id shopkeeper_id)a)
+      |> Map.merge(%{price: FormatMonetaryValue.call(product.price)})
+      |> Jason.Encode.map(opts)
+    end
+  end
 end

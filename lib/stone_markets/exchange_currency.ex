@@ -1,6 +1,6 @@
-defmodule Testing.ExchangeCurrency do
-  alias Testing.{Arithmetic, BackgroundStorage}
-  alias Testing.Errors.InvalidArgs
+defmodule StoneMarkets.ExchangeCurrency do
+  alias StoneMarkets.{Arithmetic, BackgroundStorage}
+  alias StoneMarkets.Errors.InvalidArgs
 
   @currencies ~w(
     USD
@@ -175,7 +175,7 @@ defmodule Testing.ExchangeCurrency do
   def call(_, _, _), do: {:error, InvalidArgs.call()}
 
   defp client do
-    :testing
+    :StoneMarkets
     |> Application.fetch_env!(__MODULE__)
     |> Keyword.get(:exchangerate_api_adapter)
   end

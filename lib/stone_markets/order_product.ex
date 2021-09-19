@@ -1,9 +1,9 @@
-defmodule Testing.OrderProduct do
+defmodule StoneMarkets.OrderProduct do
   use Ecto.Schema
 
   import Ecto.Changeset
 
-  alias Testing.{Order, Product}
+  alias StoneMarkets.{Order, Product}
 
   @primary_key false
   @foreign_key_type :binary_id

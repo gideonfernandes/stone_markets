@@ -43,4 +43,13 @@ defmodule StoneMarkets.Order do
   end
 
   defp put_status(changeset), do: changeset
+
+  defimpl Jason.Encoder, for: __MODULE__ do
+    def encode(order, opts) do
+      order
+      |> Map.take(~w(id address comments customer_id marketplace_id products total_value)a)
+      |> Map.merge(%{total_value: FormatMonetaryValue.call(order.total_value)})
+      |> Jason.Encode.map(opts)
+    end
+  end
 end
