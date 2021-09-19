@@ -3,8 +3,8 @@ defmodule StoneMarkets.Orders.MultiplyProductsTest do
 
   import StoneMarkets.Factory
 
-  alias StoneMarkets.Product
   alias StoneMarkets.Orders.MultiplyProducts
+  alias StoneMarkets.Product
 
   describe "call/1" do
     test "returns multiplied products when all product params are valid" do
@@ -26,7 +26,7 @@ defmodule StoneMarkets.Orders.MultiplyProductsTest do
                   id: _,
                   marketplace_id: _,
                   name: _,
-                  price: 80000,
+                  price: 80_000,
                   shopkeeper_id: _
                 },
                 %Product{
@@ -36,7 +36,7 @@ defmodule StoneMarkets.Orders.MultiplyProductsTest do
                   id: _,
                   marketplace_id: _,
                   name: _,
-                  price: 80000,
+                  price: 80_000,
                   shopkeeper_id: _
                 },
                 %Product{
@@ -46,7 +46,7 @@ defmodule StoneMarkets.Orders.MultiplyProductsTest do
                   id: _,
                   marketplace_id: _,
                   name: _,
-                  price: 80000,
+                  price: 80_000,
                   shopkeeper_id: _
                 }
               ]} = response

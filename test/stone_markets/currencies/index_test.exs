@@ -3,8 +3,8 @@ defmodule StoneMarkets.Currencies.IndexTest do
 
   import StoneMarkets.Factory
 
-  alias StoneMarkets.Currency
   alias StoneMarkets.Currencies.Index
+  alias StoneMarkets.Currency
 
   describe "call/1" do
     test "returns all currencies" do

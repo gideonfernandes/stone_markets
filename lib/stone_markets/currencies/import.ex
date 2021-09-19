@@ -27,7 +27,6 @@ defmodule StoneMarkets.Currencies.Import do
 
   defp do_insert(currency) do
     currency
-    |> IO.inspect()
     |> Currency.changeset()
     |> Repo.insert!()
   end

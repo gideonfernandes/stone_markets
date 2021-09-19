@@ -13,7 +13,7 @@ defmodule StoneMarkets.AccountTest do
       response = Account.changeset(attrs)
 
       assert %Changeset{
-               changes: %{balance: 50000, code: "customer", customer_id: _customer_id},
+               changes: %{balance: 50_000, code: "customer", customer_id: _customer_id},
                valid?: true
              } = response
     end
@@ -24,7 +24,7 @@ defmodule StoneMarkets.AccountTest do
       response = Account.changeset(attrs)
 
       assert %Changeset{
-               changes: %{balance: 50000, code: "marketplace", marketplace_id: _marketplace_id},
+               changes: %{balance: 50_000, code: "marketplace", marketplace_id: _marketplace_id},
                valid?: true
              } = response
     end
@@ -35,7 +35,7 @@ defmodule StoneMarkets.AccountTest do
       response = Account.changeset(attrs)
 
       assert %Changeset{
-               changes: %{balance: 50000, code: "shopkeeper", shopkeeper_id: _shopkeeper_id},
+               changes: %{balance: 50_000, code: "shopkeeper", shopkeeper_id: _shopkeeper_id},
                valid?: true
              } = response
     end

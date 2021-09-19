@@ -3,7 +3,7 @@ defmodule StoneMarketsWeb.FallbackControllerTest do
 
   import StoneMarkets.Factory
 
-  alias StoneMarkets.{Error, Customer}
+  alias StoneMarkets.{Customer, Error}
   alias StoneMarketsWeb.FallbackController
 
   describe "call/2" do

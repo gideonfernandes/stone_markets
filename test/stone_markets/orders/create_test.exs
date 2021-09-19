@@ -29,7 +29,7 @@ defmodule StoneMarkets.Orders.CreateTest do
                  id: _id,
                  marketplace_id: ^marketplace_id,
                  products: [%Product{}],
-                 total_value: 80000
+                 total_value: 80_000
                }
              } = response
     end

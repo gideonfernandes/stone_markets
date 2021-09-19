@@ -3,8 +3,8 @@ defmodule StoneMarkets.Currencies.FetchByTest do
 
   import StoneMarkets.Factory
 
-  alias StoneMarkets.{Currency, Error}
   alias StoneMarkets.Currencies.FetchBy
+  alias StoneMarkets.{Currency, Error}
 
   describe "call/2" do
     test "returns the currency by the field/value provided" do

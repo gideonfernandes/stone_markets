@@ -4,7 +4,7 @@ defmodule StoneMarkets.Customers.CreateTest do
   import StoneMarkets.Factory
 
   alias Ecto.Changeset
-  alias StoneMarkets.{Error, Customer}
+  alias StoneMarkets.{Customer, Error}
   alias StoneMarkets.Customers.Create
 
   describe "call/1" do

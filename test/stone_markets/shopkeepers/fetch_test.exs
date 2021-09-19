@@ -3,7 +3,7 @@ defmodule StoneMarkets.Shopkeeper.FetchTest do
 
   import StoneMarkets.Factory
 
-  alias StoneMarkets.{Shopkeeper, Error}
+  alias StoneMarkets.{Error, Shopkeeper}
   alias StoneMarkets.Shopkeepers.Fetch
 
   describe "call/1" do

@@ -19,7 +19,7 @@ defmodule StoneMarkets.ProductTest do
                  category: _category,
                  description: "Product description",
                  marketplace_id: _marketplace_id,
-                 price: 80000,
+                 price: 80_000,
                  shopkeeper_id: _shopkeeper_id
                },
                valid?: true
