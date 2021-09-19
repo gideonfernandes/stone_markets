@@ -175,7 +175,7 @@ defmodule StoneMarkets.ExchangeCurrency do
   def call(_, _, _), do: {:error, InvalidArgs.call()}
 
   defp client do
-    :StoneMarkets
+    :stone_markets
     |> Application.fetch_env!(__MODULE__)
     |> Keyword.get(:exchangerate_api_adapter)
   end
