@@ -15,6 +15,7 @@ defmodule StoneMarkets do
   alias StoneMarkets.Customers.Fetch, as: FetchCustomer
   alias StoneMarkets.Customers.FetchBy, as: FetchCustomerBy
   alias StoneMarkets.Customers.Index, as: IndexCustomers
+  alias StoneMarkets.ISO4217
   alias StoneMarkets.Marketplaces.Create, as: CreateMarketplace
   alias StoneMarkets.Marketplaces.FetchBy, as: FetchMarketplaceBy
   alias StoneMarkets.Marketplaces.Index, as: IndexMarketplaces
@@ -34,6 +35,7 @@ defmodule StoneMarkets do
   defdelegate create_customer(params), to: CreateCustomer, as: :call
   defdelegate fetch_customer(id), to: FetchCustomer, as: :call
   defdelegate fetch_customer_by(field, param), to: FetchCustomerBy, as: :call
+  defdelegate format_to_iso_4217(value, currency), to: ISO4217, as: :call
   defdelegate customers, to: IndexCustomers, as: :call
   defdelegate create_order(params), to: CreateOrder, as: :call
   defdelegate create_marketplace(params), to: CreateMarketplace, as: :call

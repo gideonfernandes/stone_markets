@@ -26,6 +26,7 @@ defmodule StoneMarketsWeb.Router do
     pipe_through [:auth, :api]
 
     post "/customers/:id/deposit", CustomerController, :deposit
+    post "/currencies/exchange", CurrencyController, :exchange
     resources "/customers", CustomerController, only: ~w(show)a
     resources "/orders", OrderController, only: ~w(create)a
     resources "/products", ProductController, only: ~w(index show)a

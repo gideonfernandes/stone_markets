@@ -26,5 +26,7 @@ defmodule StoneMarkets.ExchangerateApi.Client do
   defp storage_currency(currency_code, body) do
     rates = Map.get(body, "conversion_rates")
     BackgroundStorage.storage_currency_conversion_rates(currency_code, rates)
+
+    {:ok, rates}
   end
 end

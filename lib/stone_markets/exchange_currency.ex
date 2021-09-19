@@ -171,7 +171,8 @@ defmodule StoneMarkets.ExchangeCurrency do
     ZMW
   )
 
-  def call(from_code, to_code, value) when from_code in @currencies and to_code in @currencies do
+  def call(from_code, to_code, value)
+      when from_code in @currencies and to_code in @currencies and is_number(value) do
     from_code
     |> BackgroundStorage.fetch_currency_conversion_rates()
     |> handle_fetch(from_code)

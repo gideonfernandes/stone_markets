@@ -16,8 +16,9 @@ Principais funcionalidades da API:
   - Deposito monetário para conta de cliente
   - Listagem de produtos cadastrados
   - Exibição de produto cadastrado
-  - Atualização de moeda para um determinado marketplace, realizando o cambio de todos os valores monetários cadastrados no sistema que possui associação com o marketplace alterado
+  - Atualização de moeda para um determinado marketplace, realizando o câmbio de todos os valores monetários cadastrados no sistema que possui associação com o marketplace alterado
   - Solicitação de pedido de compra por um cliente, sequenciando um split de pagamentos aos lojistas correspondentes
+  - Câmbio de valor monetário entre moedas
 
 Tecnologias e libs utilizadas na API:
   - Elixir
@@ -265,6 +266,39 @@ Passe como payload no body da requisição um JSON no seguinte formato:
 ```
 
 
+#### Câmbio de valor monetário
+Descrição: Realiza o câmbio de valor monetário entre dus moedas.
+
+- POST para localhost:4000/api/currencies/exchange
+
+Passe o payload no body da requisição um JSON no seguinte formato:
+
+```json
+{
+	"from_code": "BRL",
+	"to_code": "EUR",
+	"value": 500
+}
+```
+
+
 #### Informações adicionais
 
 Você poderá importar o arquivo *documentation/endpoints.json* que possui as rotas já configuradas para utilizar a API via Insomnia.
+
+Dica de utilização:
+
+- Importe o arquivo de rotas *documentation/endpoints.json* para o client HTTP Insomnia
+- Liste os marketplaces para escolher um ID qualquer para poder criar um novo cliente
+- Crie um cliente na API com seus dados para o marketplace
+- Crie uma autenticação com as credenciais do cliente recém criado
+- Realize um depósito para o novo cliente
+- Liste todos os produtos para escolher os IDS dos produtos desejados
+- Exiba o cliente logado para comparação de saldo posterior a uma compra
+- Liste os lojistas comparação de saldo posterior a uma compra
+- Crie um novo pedido passando os produtos desejados, quantidade e o marketplace_id do cliente
+- Exiba o cliente para observar o saldo atual após uma compra
+- Liste os lojistas para observar os saldos atuais após a divisão de pagamentos após uma compra
+- Altere a moeda atual do marketplace que usou para criar o cliente
+- Liste os lojistas para observar o cambio de valores performados após a mudança de moeda do marketplace
+- Realize o câmbio de valor de uma moeda para outra

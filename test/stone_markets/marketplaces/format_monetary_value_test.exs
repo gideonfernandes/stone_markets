@@ -3,8 +3,7 @@ defmodule StoneMarkets.Marketplaces.FormatMonetaryValueTest do
 
   import StoneMarkets.Factory
 
-  alias StoneMarkets.{Arithmetic, BackgroundStorage}
-
+  alias StoneMarkets.{Arithmetic, BackgroundStorage, Error}
   alias StoneMarkets.Marketplaces.FormatMonetaryValue
 
   describe "call/1" do
@@ -24,12 +23,12 @@ defmodule StoneMarkets.Marketplaces.FormatMonetaryValueTest do
       assert response === expected_response
     end
 
-    test "returns an invalid string when the provided value is invalid" do
+    test "returns an error when there are invalid params" do
       customer = insert(:customer)
 
       BackgroundStorage.storage_signed_customer(customer)
 
-      expected_response = "invalid value"
+      expected_response = {:error, %Error{result: "Invalid Args", status: :not_acceptable}}
 
       response = FormatMonetaryValue.call("invalid")
 
