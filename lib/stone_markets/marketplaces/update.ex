@@ -1,5 +1,5 @@
 defmodule StoneMarkets.Marketplaces.Update do
-  alias StoneMarkets.{FallbackError, Repo, Marketplace}
+  alias StoneMarkets.{FallbackError, Marketplace, Repo}
 
   alias StoneMarkets.Errors.{
     CurrencyCodeIsRequired,

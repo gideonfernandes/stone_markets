@@ -9,6 +9,10 @@ defmodule StoneMarkets.Application do
     children = [
       # Start the BackgroundStorage agent
       StoneMarkets.BackgroundStorage,
+      # Start the CurrencyConvertWorker gen_server
+      StoneMarkets.Marketplaces.CurrencyConvertWorker,
+      # Start the TransactionsWorker gen_server
+      StoneMarkets.Orders.TransactionsWorker,
       # Start the Ecto repository
       StoneMarkets.Repo,
       # Start the Telemetry supervisor

@@ -8,24 +8,24 @@ defmodule StoneMarkets do
   """
 
   alias StoneMarkets.Accounts.Deposit, as: AccountDeposit
-  alias StoneMarkets.Currencies.Index, as: IndexCurrencies
   alias StoneMarkets.Currencies.Fetch, as: FetchCurrency
   alias StoneMarkets.Currencies.FetchBy, as: FetchCurrencyBy
+  alias StoneMarkets.Currencies.Index, as: IndexCurrencies
   alias StoneMarkets.Customers.Create, as: CreateCustomer
-  alias StoneMarkets.Customers.Index, as: IndexCustomers
   alias StoneMarkets.Customers.Fetch, as: FetchCustomer
   alias StoneMarkets.Customers.FetchBy, as: FetchCustomerBy
-  alias StoneMarkets.Orders.Create, as: CreateOrder
+  alias StoneMarkets.Customers.Index, as: IndexCustomers
   alias StoneMarkets.Marketplaces.Create, as: CreateMarketplace
-  alias StoneMarkets.Marketplaces.Index, as: IndexMarketplaces
   alias StoneMarkets.Marketplaces.FetchBy, as: FetchMarketplaceBy
+  alias StoneMarkets.Marketplaces.Index, as: IndexMarketplaces
   alias StoneMarkets.Marketplaces.Update, as: UpdateMarketplace
+  alias StoneMarkets.Orders.Create, as: CreateOrder
   alias StoneMarkets.Products.Create, as: CreateProduct
-  alias StoneMarkets.Products.Index, as: IndexProducts
   alias StoneMarkets.Products.Fetch, as: FetchProduct
+  alias StoneMarkets.Products.Index, as: IndexProducts
   alias StoneMarkets.Shopkeepers.Create, as: CreateShopkeeper
-  alias StoneMarkets.Shopkeepers.Index, as: IndexShopkeepers
   alias StoneMarkets.Shopkeepers.Fetch, as: FetchShopkeeper
+  alias StoneMarkets.Shopkeepers.Index, as: IndexShopkeepers
 
   defdelegate account_deposit(params, account_type), to: AccountDeposit, as: :call
   defdelegate currencies, to: IndexCurrencies, as: :call

@@ -1,6 +1,6 @@
 defmodule StoneMarkets.Shopkeepers.Fetch do
-  alias StoneMarkets.{FallbackError, Repo, Shopkeeper}
   alias StoneMarkets.Errors.ResourceNotFound
+  alias StoneMarkets.{FallbackError, Repo, Shopkeeper}
 
   def call(id) do
     with %Shopkeeper{} = shopkeeper <- Repo.get(Shopkeeper, id),

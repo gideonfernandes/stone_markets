@@ -1,8 +1,7 @@
 defmodule StoneMarketsWeb.Router do
   use StoneMarketsWeb, :router
 
-  alias StoneMarketsWeb.Plugs.UUIDChecker
-  alias StoneMarketsWeb.Plugs.StorageSigned
+  alias StoneMarketsWeb.Plugs.{StorageSigned, UUIDChecker}
 
   pipeline :api do
     plug :accepts, ["json"]

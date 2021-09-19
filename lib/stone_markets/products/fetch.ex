@@ -1,6 +1,6 @@
 defmodule StoneMarkets.Products.Fetch do
-  alias StoneMarkets.{Repo, Product}
   alias StoneMarkets.Errors.ResourceNotFound
+  alias StoneMarkets.{Product, Repo}
 
   def call(id) do
     case Repo.get(Product, id) do

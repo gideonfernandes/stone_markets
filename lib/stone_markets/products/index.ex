@@ -1,7 +1,7 @@
 defmodule StoneMarkets.Products.Index do
   import Ecto.Query, only: [from: 2]
 
-  alias StoneMarkets.{BackgroundStorage, Repo, Product}
+  alias StoneMarkets.{BackgroundStorage, Product, Repo}
   alias StoneMarkets.Errors.InvalidCategories
 
   @marketplace_categories ~w(classifieds clothing electronics family housing vehicles)

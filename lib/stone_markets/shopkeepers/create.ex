@@ -1,6 +1,6 @@
 defmodule StoneMarkets.Shopkeepers.Create do
   alias Ecto.Multi
-  alias StoneMarkets.{FallbackError, Shopkeeper, Repo}
+  alias StoneMarkets.{FallbackError, Repo, Shopkeeper}
 
   def call(attrs) do
     Multi.new()

@@ -3,8 +3,8 @@ defmodule StoneMarkets.Marketplaces.CurrencyConvertWorker do
 
   require Logger
 
-  alias StoneMarkets.Repo
   alias StoneMarkets.Marketplaces.FormatMonetaryValue
+  alias StoneMarkets.Repo
 
   alias StoneMarkets.Marketplaces.Operations.{
     ConvertAccountBalances,

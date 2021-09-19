@@ -1,8 +1,8 @@
 defmodule StoneMarkets.Marketplaces.Operations.ConvertOrderTotalValues do
   import Ecto.Query, only: [from: 2]
 
-  alias StoneMarkets.{Order, Repo}
   alias StoneMarkets.Marketplaces.Operations.CalculateExchange
+  alias StoneMarkets.{Order, Repo}
 
   def call({marketplace, old_currency_id}) do
     market_id = marketplace.id

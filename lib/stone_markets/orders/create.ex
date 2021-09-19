@@ -1,7 +1,6 @@
 defmodule StoneMarkets.Orders.Create do
   alias Ecto.Changeset
   alias StoneMarkets.{FallbackError, Order, Repo}
-
   alias StoneMarkets.Orders.{CalculateTotalValue, CheckCustomerPurchasingPower, MultiplyProducts}
   alias StoneMarkets.Orders.Inputs.CreateOrderSchema
 

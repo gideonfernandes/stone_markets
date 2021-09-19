@@ -1,6 +1,6 @@
 defmodule StoneMarkets.Marketplaces.FetchBy do
-  alias StoneMarkets.{FallbackError, Repo, Marketplace}
   alias StoneMarkets.Errors.ResourceNotFound
+  alias StoneMarkets.{FallbackError, Marketplace, Repo}
 
   def call(field, value) do
     key_value = Map.new([field], fn field -> {field, value} end)

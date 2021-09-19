@@ -5,7 +5,7 @@ defmodule StoneMarkets.Products.Import do
 
   import Ecto.Query, only: [from: 2]
 
-  alias StoneMarkets.{Repo, Shopkeeper, Marketplace}
+  alias StoneMarkets.{Marketplace, Repo, Shopkeeper}
 
   def call do
     with {:ok, content} <- File.read("priv/repo/seeds/fixtures/products.json"),

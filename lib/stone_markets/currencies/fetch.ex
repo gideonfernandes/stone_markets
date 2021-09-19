@@ -1,5 +1,5 @@
 defmodule StoneMarkets.Currencies.Fetch do
-  alias StoneMarkets.{Repo, Currency}
+  alias StoneMarkets.{Currency, Repo}
   alias StoneMarkets.Errors.ResourceNotFound
 
   def call(id) do
