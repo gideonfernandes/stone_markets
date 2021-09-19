@@ -45,6 +45,7 @@ defmodule StoneMarkets.MixProject do
       {:ecto_sql, "~> 3.7.0"},
       {:excoveralls, "~> 0.10", only: :test},
       {:gettext, "~> 0.11"},
+      {:guardian, "~> 2.0"},
       {:hackney, "~> 1.17"},
       {:jason, "~> 1.0"},
       {:memoize, "~> 1.4"},
