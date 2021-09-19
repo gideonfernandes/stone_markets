@@ -10,6 +10,10 @@ use Mix.Config
 config :stone_markets,
   ecto_repos: [StoneMarkets.Repo]
 
+config :stone_markets, StoneMarkets.Repo,
+  migration_primary_key: [type: :binary_id],
+  migration_foreign_key: [type: :binary_id]
+
 # Configures the endpoint
 config :stone_markets, StoneMarketsWeb.Endpoint,
   url: [host: "localhost"],
