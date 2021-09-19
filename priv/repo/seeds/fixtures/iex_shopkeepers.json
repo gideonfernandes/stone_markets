@@ -1,0 +1,40 @@
+{
+  "shopkeepers": [
+    {
+      "category": "classifieds",
+      "email": "shopkeeper001@stone.com.br",
+      "name": "Shopkeeper 001",
+      "nickname": "Shop 001"
+    },
+    {
+      "category": "clothing",
+      "email": "shopkeeper002@stone.com.br",
+      "name": "Shopkeeper 002",
+      "nickname": "Shop 002"
+    },
+    {
+      "category": "electronics",
+      "email": "shopkeeper003@stone.com.br",
+      "name": "Shopkeeper 003",
+      "nickname": "Shop 003"
+    },
+    {
+      "category": "family",
+      "email": "shopkeeper004@stone.com.br",
+      "name": "Shopkeeper 004",
+      "nickname": "Shop 004"
+    },
+    {
+      "category": "housing",
+      "email": "shopkeeper005@stone.com.br",
+      "name": "Shopkeeper 005",
+      "nickname": "Shop 005"
+    },
+    {
+      "category": "vehicles",
+      "email": "shopkeeper006@stone.com.br",
+      "name": "Shopkeeper 006",
+      "nickname": "Shop 006"
+    }
+  ]
+}

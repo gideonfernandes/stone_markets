@@ -5,12 +5,15 @@ defmodule StoneMarkets.Currencies.Import do
 
   alias StoneMarkets.{Currency, Repo}
 
-  def call(filepath \\ "priv/repo/seeds/fixtures/currencies.json") do
-    with {:ok, content} <- File.read(filepath),
-         {:ok, currencies} <- decode_currencies(content) do
-      insert_importeds(currencies)
-    else
-      _ -> "An error occurred creating the currencies..."
+  def call do
+    case File.read("priv/repo/seeds/fixtures/currencies.json") do
+      {:ok, content} ->
+        content
+        |> decode_currencies()
+        |> insert_importeds()
+
+      _ ->
+        "An error occurred creating the currencies..."
     end
   end
 
@@ -24,6 +27,7 @@ defmodule StoneMarkets.Currencies.Import do
 
   defp do_insert(currency) do
     currency
+    |> IO.inspect()
     |> Currency.changeset()
     |> Repo.insert!()
   end

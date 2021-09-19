@@ -1,0 +1,508 @@
+{
+  "products": [
+    {
+      "amount": 5,
+      "category": "classifieds",
+      "name": "Product 001",
+      "description": "A product description...",
+      "price": 54
+    },
+    {
+      "amount": 1,
+      "category": "classifieds",
+      "name": "Product 002",
+      "description": "A product description...",
+      "price": 266
+    },
+    {
+      "amount": 2,
+      "category": "classifieds",
+      "name": "Product 003",
+      "description": "A product description...",
+      "price": 411
+    },
+    {
+      "amount": 3,
+      "category": "classifieds",
+      "name": "Product 004",
+      "description": "A product description...",
+      "price": 2150
+    },
+    {
+      "amount": 7,
+      "category": "classifieds",
+      "name": "Product 005",
+      "description": "A product description...",
+      "price": 4120
+    },
+    {
+      "amount": 8,
+      "category": "classifieds",
+      "name": "Product 006",
+      "description": "A product description...",
+      "price": 220
+    },
+    {
+      "amount": 12,
+      "category": "classifieds",
+      "name": "Product 007",
+      "description": "A product description...",
+      "price": 405
+    },
+    {
+      "amount": 45,
+      "category": "classifieds",
+      "name": "Product 008",
+      "description": "A product description...",
+      "price": 660
+    },
+    {
+      "amount": 45,
+      "category": "classifieds",
+      "name": "Product 009",
+      "description": "A product description...",
+      "price": 490
+    },
+    {
+      "amount": 67,
+      "category": "classifieds",
+      "name": "Product 010",
+      "description": "A product description...",
+      "price": 260
+    },
+    {
+      "amount": 2,
+      "category": "classifieds",
+      "name": "Product 011",
+      "description": "A product description...",
+      "price": 450
+    },
+    {
+      "amount": 80,
+      "category": "classifieds",
+      "name": "Product 012",
+      "description": "A product description...",
+      "price": 7200
+    },
+    {
+      "amount": 45,
+      "category": "clothing",
+      "name": "Product 013",
+      "description": "A product description...",
+      "price": 970
+    },
+    {
+      "amount": 12,
+      "category": "clothing",
+      "name": "Product 014",
+      "description": "A product description...",
+      "price": 780
+    },
+    {
+      "amount": 13,
+      "category": "clothing",
+      "name": "Product 015",
+      "description": "A product description...",
+      "price": 870
+    },
+    {
+      "amount": 17,
+      "category": "clothing",
+      "name": "Product 016",
+      "description": "A product description...",
+      "price": 880
+    },
+    {
+      "amount": 18,
+      "category": "clothing",
+      "name": "Product 017",
+      "description": "A product description...",
+      "price": 550
+    },
+    {
+      "amount": 20,
+      "category": "clothing",
+      "name": "Product 018",
+      "description": "A product description...",
+      "price": 460
+    },
+    {
+      "amount": 22,
+      "category": "clothing",
+      "name": "Product 019",
+      "description": "A product description...",
+      "price": 440
+    },
+    {
+      "amount": 33,
+      "category": "clothing",
+      "name": "Product 020",
+      "description": "A product description...",
+      "price": 370
+    },
+    {
+      "amount": 44,
+      "category": "clothing",
+      "name": "Product 021",
+      "description": "A product description...",
+      "price": 210
+    },
+    {
+      "amount": 55,
+      "category": "clothing",
+      "name": "Product 022",
+      "description": "A product description...",
+      "price": 280
+    },
+    {
+      "amount": 66,
+      "category": "clothing",
+      "name": "Product 023",
+      "description": "A product description...",
+      "price": 262
+    },
+    {
+      "amount": 77,
+      "category": "clothing",
+      "name": "Product 024",
+      "description": "A product description...",
+      "price": 281
+    },
+    {
+      "amount": 20,
+      "category": "electronics",
+      "name": "Product 025",
+      "description": "A product description...",
+      "price": 322
+    },
+    {
+      "amount": 19,
+      "category": "electronics",
+      "name": "Product 026",
+      "description": "A product description...",
+      "price": 382
+    },
+    {
+      "amount": 13,
+      "category": "electronics",
+      "name": "Product 027",
+      "description": "A product description...",
+      "price": 236
+    },
+    {
+      "amount": 54,
+      "category": "electronics",
+      "name": "Product 028",
+      "description": "A product description...",
+      "price": 3636
+    },
+    {
+      "amount": 43,
+      "category": "electronics",
+      "name": "Product 029",
+      "description": "A product description...",
+      "price": 986
+    },
+    {
+      "amount": 54,
+      "category": "electronics",
+      "name": "Product 030",
+      "description": "A product description...",
+      "price": 646
+    },
+    {
+      "amount": 32,
+      "category": "electronics",
+      "name": "Product 031",
+      "description": "A product description...",
+      "price": 636
+    },
+    {
+      "amount": 13,
+      "category": "electronics",
+      "name": "Product 032",
+      "description": "A product description...",
+      "price": 626
+    },
+    {
+      "amount": 21,
+      "category": "electronics",
+      "name": "Product 033",
+      "description": "A product description...",
+      "price": 616
+    },
+    {
+      "amount": 16,
+      "category": "electronics",
+      "name": "Product 034",
+      "description": "A product description...",
+      "price": 406
+    },
+    {
+      "amount": 13,
+      "category": "electronics",
+      "name": "Product 035",
+      "description": "A product description...",
+      "price": 376
+    },
+    {
+      "amount": 18,
+      "category": "electronics",
+      "name": "Product 036",
+      "description": "A product description...",
+      "price": 266
+    },
+    {
+      "amount": 3,
+      "category": "family",
+      "name": "Product 037",
+      "description": "A product description...",
+      "price": 256
+    },
+    {
+      "amount": 2,
+      "category": "family",
+      "name": "Product 038",
+      "description": "A product description...",
+      "price": 245
+    },
+    {
+      "amount": 5,
+      "category": "family",
+      "name": "Product 039",
+      "description": "A product description...",
+      "price": 236
+    },
+    {
+      "amount": 7,
+      "category": "family",
+      "name": "Product 040",
+      "description": "A product description...",
+      "price": 215
+    },
+    {
+      "amount": 30,
+      "category": "family",
+      "name": "Product 041",
+      "description": "A product description...",
+      "price": 226
+    },
+    {
+      "amount": 34,
+      "category": "family",
+      "name": "Product 042",
+      "description": "A product description...",
+      "price": 335
+    },
+    {
+      "amount": 52,
+      "category": "family",
+      "name": "Product 043",
+      "description": "A product description...",
+      "price": 526
+    },
+    {
+      "amount": 35,
+      "category": "family",
+      "name": "Product 044",
+      "description": "A product description...",
+      "price": 584
+    },
+    {
+      "amount": 25,
+      "category": "family",
+      "name": "Product 045",
+      "description": "A product description...",
+      "price": 588
+    },
+    {
+      "amount": 67,
+      "category": "family",
+      "name": "Product 046",
+      "description": "A product description...",
+      "price": 583
+    },
+    {
+      "amount": 13,
+      "category": "family",
+      "name": "Product 047",
+      "description": "A product description...",
+      "price": 516
+    },
+    {
+      "amount": 14,
+      "category": "family",
+      "name": "Product 048",
+      "description": "A product description...",
+      "price": 515
+    },
+    {
+      "amount": 100,
+      "category": "housing",
+      "name": "Product 049",
+      "description": "A product description...",
+      "price": 815
+    },
+    {
+      "amount": 12,
+      "category": "housing",
+      "name": "Product 050",
+      "description": "A product description...",
+      "price": 363
+    },
+    {
+      "amount": 20,
+      "category": "housing",
+      "name": "Product 051",
+      "description": "A product description...",
+      "price": 887
+    },
+    {
+      "amount": 34,
+      "category": "housing",
+      "name": "Product 052",
+      "description": "A product description...",
+      "price": 373
+    },
+    {
+      "amount": 50,
+      "category": "housing",
+      "name": "Product 053",
+      "description": "A product description...",
+      "price": 825
+    },
+    {
+      "amount": 62,
+      "category": "housing",
+      "name": "Product 054",
+      "description": "A product description...",
+      "price": 331
+    },
+    {
+      "amount": 60,
+      "category": "housing",
+      "name": "Product 055",
+      "description": "A product description...",
+      "price": 888
+    },
+    {
+      "amount": 87,
+      "category": "housing",
+      "name": "Product 056",
+      "description": "A product description...",
+      "price": 333
+    },
+    {
+      "amount": 45,
+      "category": "housing",
+      "name": "Product 057",
+      "description": "A product description...",
+      "price": 886
+    },
+    {
+      "amount": 12,
+      "category": "housing",
+      "name": "Product 058",
+      "description": "A product description...",
+      "price": 363
+    },
+    {
+      "amount": 92,
+      "category": "housing",
+      "name": "Product 059",
+      "description": "A product description...",
+      "price": 875
+    },
+    {
+      "amount": 35,
+      "category": "housing",
+      "name": "Product 060",
+      "description": "A product description...",
+      "price": 123
+    },
+    {
+      "amount": 95,
+      "category": "vehicles",
+      "name": "Product 061",
+      "description": "A product description...",
+      "price": 101
+    },
+    {
+      "amount": 8,
+      "category": "vehicles",
+      "name": "Product 062",
+      "description": "A product description...",
+      "price": 9999
+    },
+    {
+      "amount": 85,
+      "category": "vehicles",
+      "name": "Product 063",
+      "description": "A product description...",
+      "price": 8331
+    },
+    {
+      "amount": 4,
+      "category": "vehicles",
+      "name": "Product 064",
+      "description": "A product description...",
+      "price": 8999
+    },
+    {
+      "amount": 41,
+      "category": "vehicles",
+      "name": "Product 065",
+      "description": "A product description...",
+      "price": 7331
+    },
+    {
+      "amount": 8,
+      "category": "vehicles",
+      "name": "Product 066",
+      "description": "A product description...",
+      "price": 6999
+    },
+    {
+      "amount": 42,
+      "category": "vehicles",
+      "name": "Product 067",
+      "description": "A product description...",
+      "price": 5331
+    },
+    {
+      "amount": 88,
+      "category": "vehicles",
+      "name": "Product 068",
+      "description": "A product description...",
+      "price": 4999
+    },
+    {
+      "amount": 47,
+      "category": "vehicles",
+      "name": "Product 069",
+      "description": "A product description...",
+      "price": 3331
+    },
+    {
+      "amount": 6,
+      "category": "vehicles",
+      "name": "Product 070",
+      "description": "A product description...",
+      "price": 2999
+    },
+    {
+      "amount": 45,
+      "category": "vehicles",
+      "name": "Product 071",
+      "description": "A product description...",
+      "price": 1331
+    },
+    {
+      "amount": 8,
+      "category": "vehicles",
+      "name": "Product 072",
+      "description": "A product description...",
+      "price": 1999
+    }
+  ]
+}

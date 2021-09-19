@@ -1,0 +1,19 @@
+{
+  "markets": [
+    {
+      "email": "iex_market@stone.com.br",
+      "name": "IEX Market",
+      "nickname": "IEX"
+    },
+    {
+      "email": "mix_market@stone.com.br",
+      "name": "MIX Market",
+      "nickname": "MIX"
+    },
+    {
+      "email": "pry_market@stone.com.br",
+      "name": "PRY Market",
+      "nickname": "PRY"
+    }
+  ]
+}

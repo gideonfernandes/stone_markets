@@ -8,11 +8,15 @@ defmodule StoneMarkets.Products.Import do
   alias StoneMarkets.{Marketplace, Repo, Shopkeeper}
 
   def call do
-    with {:ok, content} <- File.read("priv/repo/seeds/fixtures/products.json"),
-         {:ok, products} <- decode_products(content) do
-      insert_products(fetch_shopkeepers("IEX"), products)
-      insert_products(fetch_shopkeepers("MIX"), products)
-      insert_products(fetch_shopkeepers("PRY"), products)
+    case File.read("priv/repo/seeds/fixtures/products.json") do
+      {:ok, content} ->
+        products = decode_products(content)
+        insert_products(fetch_shopkeepers("IEX"), products)
+        insert_products(fetch_shopkeepers("MIX"), products)
+        insert_products(fetch_shopkeepers("PRY"), products)
+
+      _ ->
+        "An error occurred creating the products..."
     end
   end
 

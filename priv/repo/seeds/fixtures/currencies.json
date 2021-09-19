@@ -1,0 +1,1090 @@
+{
+  "currencies": [
+    {
+      "code": "AED",
+      "number": "784",
+      "decimal_places": 2,
+      "name": "Dirham dos Emirados"
+    },
+    {
+      "code": "AFN",
+      "number": "971",
+      "decimal_places": 2,
+      "name": "Afegane"
+    },
+    {
+      "code": "ALL",
+      "number": "008",
+      "decimal_places": 2,
+      "name": "Lek"
+    },
+    {
+      "code": "AMD",
+      "number": "051",
+      "decimal_places": 0,
+      "name": "Dram"
+    },
+    {
+      "code": "ANG",
+      "number": "532",
+      "decimal_places": 2,
+      "name": "Florim"
+    },
+    {
+      "code": "AOA",
+      "number": "973",
+      "decimal_places": 2,
+      "name": "Kwanza"
+    },
+    {
+      "code": "ARS",
+      "number": "032",
+      "decimal_places": 2,
+      "name": "Peso Argentino"
+    },
+    {
+      "code": "AUD",
+      "number": "036",
+      "decimal_places": 2,
+      "name": "Dólar australiano"
+    },
+    {
+      "code": "AWG",
+      "number": "533",
+      "decimal_places": 2,
+      "name": "Florim de Aruba"
+    },
+    {
+      "code": "AZN",
+      "number": "944",
+      "decimal_places": 2,
+      "name": "Manat do Azerbaijão"
+    },
+    {
+      "code": "BAM",
+      "number": "977",
+      "decimal_places": 2,
+      "name": "Marco convertível"
+    },
+    {
+      "code": "BBD",
+      "number": "052",
+      "decimal_places": 2,
+      "name": "Dólar de Barbados"
+    },
+    {
+      "code": "BDT",
+      "number": "050",
+      "decimal_places": 2,
+      "name": "Taka"
+    },
+    {
+      "code": "BGN",
+      "number": "975",
+      "decimal_places": 2,
+      "name": "Lev búlgaro"
+    },
+    {
+      "code": "BHD",
+      "number": "048",
+      "decimal_places": 3,
+      "name": "Dinar do Bahrein"
+    },
+    {
+      "code": "BIF",
+      "number": "108",
+      "decimal_places": 0,
+      "name": "Franco do Burundi"
+    },
+    {
+      "code": "BMD",
+      "number": "060",
+      "decimal_places": 2,
+      "name": "Dólar bermudense"
+    },
+    {
+      "code": "BND",
+      "number": "096",
+      "decimal_places": 2,
+      "name": "Dólar do Brunei"
+    },
+    {
+      "code": "BOB",
+      "number": "068",
+      "decimal_places": 2,
+      "name": "Boliviano"
+    },
+    {
+      "code": "BOV",
+      "number": "984",
+      "decimal_places": 2,
+      "name": "Boliviano Mvdol"
+    },
+    {
+      "code": "BRL",
+      "number": "986",
+      "decimal_places": 2,
+      "name": "Real"
+    },
+    {
+      "code": "BSD",
+      "number": "044",
+      "decimal_places": 2,
+      "name": "Dólar das Bahamas"
+    },
+    {
+      "code": "BTN",
+      "number": "064",
+      "decimal_places": 2,
+      "name": "Ngultrum"
+    },
+    {
+      "code": "BWP",
+      "number": "072",
+      "decimal_places": 2,
+      "name": "Pula"
+    },
+    {
+      "code": "BYR",
+      "number": "974",
+      "decimal_places": 0,
+      "name": "Rublo bielorrusso"
+    },
+    {
+      "code": "BZD",
+      "number": "084",
+      "decimal_places": 2,
+      "name": "Dólar do Belize"
+    },
+    {
+      "code": "CAD",
+      "number": "124",
+      "decimal_places": 2,
+      "name": "Dólar canadense"
+    },
+    {
+      "code": "CDF",
+      "number": "976",
+      "decimal_places": 2,
+      "name": "Franco congolês"
+    },
+    {
+      "code": "CHE",
+      "number": "947",
+      "decimal_places": 2,
+      "name": "WIR euro (moeda complementar)"
+    },
+    {
+      "code": "CHF",
+      "number": "756",
+      "decimal_places": 2,
+      "name": "Franco suíço"
+    },
+    {
+      "code": "CHW",
+      "number": "948",
+      "decimal_places": 2,
+      "name": "WIR franc (moeda complementar)"
+    },
+    {
+      "code": "CLF",
+      "number": "990",
+      "decimal_places": 0,
+      "name": "Unidade de Fomento (código de fundos)"
+    },
+    {
+      "code": "CLP",
+      "number": "152",
+      "decimal_places": 0,
+      "name": "Peso chileno"
+    },
+    {
+      "code": "CNY",
+      "number": "156",
+      "decimal_places": 1,
+      "name": "Renminbi"
+    },
+    {
+      "code": "COP",
+      "number": "170",
+      "decimal_places": 0,
+      "name": "Peso colombiano"
+    },
+    {
+      "code": "COU",
+      "number": "970",
+      "decimal_places": 2,
+      "name": "Unidade de Valor Real"
+    },
+    {
+      "code": "CRC",
+      "number": "188",
+      "decimal_places": 2,
+      "name": "Colon da Costa Rica"
+    },
+    {
+      "code": "CUC",
+      "number": "931",
+      "decimal_places": 2,
+      "name": "Peso cubano convertível"
+    },
+    {
+      "code": "CUP",
+      "number": "192",
+      "decimal_places": 2,
+      "name": "Peso cubano"
+    },
+    {
+      "code": "CVE",
+      "number": "132",
+      "decimal_places": 0,
+      "name": "Escudo cabo-verdiano"
+    },
+    {
+      "code": "CZK",
+      "number": "203",
+      "decimal_places": 2,
+      "name": "Coroa checa"
+    },
+    {
+      "code": "DJF",
+      "number": "262",
+      "decimal_places": 0,
+      "name": "Franco do Djibuti"
+    },
+    {
+      "code": "DKK",
+      "number": "208",
+      "decimal_places": 2,
+      "name": "Coroa dinamarquesa"
+    },
+    {
+      "code": "DOP",
+      "number": "214",
+      "decimal_places": 2,
+      "name": "Peso"
+    },
+    {
+      "code": "DZD",
+      "number": "012",
+      "decimal_places": 2,
+      "name": "Dinar argelino"
+    },
+    {
+      "code": "ECS",
+      "number": "895",
+      "decimal_places": 2,
+      "name": "Sucre (O dólar americano USD é a moeda corrente no país)"
+    },
+    {
+      "code": "EGP",
+      "number": "818",
+      "decimal_places": 2,
+      "name": "Libra egípcia"
+    },
+    {
+      "code": "ERN",
+      "number": "232",
+      "decimal_places": 2,
+      "name": "Nakfa"
+    },
+    {
+      "code": "ETB",
+      "number": "230",
+      "decimal_places": 2,
+      "name": "Birr etíope"
+    },
+    {
+      "code": "EUR",
+      "number": "978",
+      "decimal_places": 2,
+      "name": "Euro"
+    },
+    {
+      "code": "FJD",
+      "number": "242",
+      "decimal_places": 2,
+      "name": "Dólar das Fiji"
+    },
+    {
+      "code": "FKP",
+      "number": "238",
+      "decimal_places": 2,
+      "name": "Libra das Malvinas"
+    },
+    {
+      "code": "GBP",
+      "number": "826",
+      "decimal_places": 2,
+      "name": "Libra Esterlina"
+    },
+    {
+      "code": "GEL",
+      "number": "981",
+      "decimal_places": 2,
+      "name": "Lari"
+    },
+    {
+      "code": "GHS",
+      "number": "936",
+      "decimal_places": 2,
+      "name": "Cedi"
+    },
+    {
+      "code": "GIP",
+      "number": "292",
+      "decimal_places": 2,
+      "name": "Libra de Gibraltar"
+    },
+    {
+      "code": "GMD",
+      "number": "270",
+      "decimal_places": 2,
+      "name": "Dalasi"
+    },
+    {
+      "code": "GNF",
+      "number": "324",
+      "decimal_places": 0,
+      "name": "Franco da Guiné"
+    },
+    {
+      "code": "GTQ",
+      "number": "320",
+      "decimal_places": 2,
+      "name": "Quetzal guatemalteco"
+    },
+    {
+      "code": "GYD",
+      "number": "328",
+      "decimal_places": 2,
+      "name": "Dólar da Guiana"
+    },
+    {
+      "code": "HKD",
+      "number": "344",
+      "decimal_places": 2,
+      "name": "Dólar de Hong Kong"
+    },
+    {
+      "code": "HNL",
+      "number": "340",
+      "decimal_places": 2,
+      "name": "Lempira"
+    },
+    {
+      "code": "HRK",
+      "number": "191",
+      "decimal_places": 2,
+      "name": "Kuna croata"
+    },
+    {
+      "code": "HTG",
+      "number": "332",
+      "decimal_places": 2,
+      "name": "Gourde"
+    },
+    {
+      "code": "HUF",
+      "number": "348",
+      "decimal_places": 2,
+      "name": "Forint"
+    },
+    {
+      "code": "IDR",
+      "number": "360",
+      "decimal_places": 0,
+      "name": "Rupia indonésia"
+    },
+    {
+      "code": "ILS",
+      "number": "376",
+      "decimal_places": 2,
+      "name": "Shekel"
+    },
+    {
+      "code": "IMP",
+      "number": "0",
+      "decimal_places": 2,
+      "name": "Libra manesa"
+    },
+    {
+      "code": "INR",
+      "number": "356",
+      "decimal_places": 2,
+      "name": "Rupia indiana"
+    },
+    {
+      "code": "IQD",
+      "number": "368",
+      "decimal_places": 0,
+      "name": "Dinar iraquiano"
+    },
+    {
+      "code": "IRR",
+      "number": "364",
+      "decimal_places": 0,
+      "name": "Rial iraniano"
+    },
+    {
+      "code": "ISK",
+      "number": "352",
+      "decimal_places": 0,
+      "name": "Coroa islandesa"
+    },
+    {
+      "code": "JMD",
+      "number": "388",
+      "decimal_places": 2,
+      "name": "Dólar jamaicano"
+    },
+    {
+      "code": "JOD",
+      "number": "400",
+      "decimal_places": 3,
+      "name": "Dinar jordano"
+    },
+    {
+      "code": "JPY",
+      "number": "392",
+      "decimal_places": 0,
+      "name": "Iene"
+    },
+    {
+      "code": "KES",
+      "number": "404",
+      "decimal_places": 2,
+      "name": "Xelim queniano"
+    },
+    {
+      "code": "KGS",
+      "number": "417",
+      "decimal_places": 2,
+      "name": "Som"
+    },
+    {
+      "code": "KHR",
+      "number": "116",
+      "decimal_places": 0,
+      "name": "Riel"
+    },
+    {
+      "code": "KMF",
+      "number": "174",
+      "decimal_places": 0,
+      "name": "Franco comoriano"
+    },
+    {
+      "code": "KPW",
+      "number": "408",
+      "decimal_places": 0,
+      "name": "Won norte-coreano"
+    },
+    {
+      "code": "KRW",
+      "number": "410",
+      "decimal_places": 0,
+      "name": "Won sul-coreano"
+    },
+    {
+      "code": "KWD",
+      "number": "414",
+      "decimal_places": 3,
+      "name": "Dinar do Kuwait"
+    },
+    {
+      "code": "KYD",
+      "number": "136",
+      "decimal_places": 2,
+      "name": "Dólar das Ilhas Cayman"
+    },
+    {
+      "code": "KZT",
+      "number": "398",
+      "decimal_places": 2,
+      "name": "Tenge"
+    },
+    {
+      "code": "LAK",
+      "number": "418",
+      "decimal_places": 0,
+      "name": "Kip"
+    },
+    {
+      "code": "LBP",
+      "number": "422",
+      "decimal_places": 0,
+      "name": "Libra libanesa"
+    },
+    {
+      "code": "LKR",
+      "number": "144",
+      "decimal_places": 2,
+      "name": "Rupia do Sri Lanka"
+    },
+    {
+      "code": "LRD",
+      "number": "430",
+      "decimal_places": 2,
+      "name": "Dólar liberiano"
+    },
+    {
+      "code": "LSL",
+      "number": "426",
+      "decimal_places": 2,
+      "name": "Loti"
+    },
+    {
+      "code": "LTL",
+      "number": "440",
+      "decimal_places": 2,
+      "name": "Litas"
+    },
+    {
+      "code": "LVL",
+      "number": "428",
+      "decimal_places": 2,
+      "name": "Lats"
+    },
+    {
+      "code": "LYD",
+      "number": "434",
+      "decimal_places": 3,
+      "name": "Dinar líbio"
+    },
+    {
+      "code": "MAD",
+      "number": "504",
+      "decimal_places": 2,
+      "name": "Dirham marroquino"
+    },
+    {
+      "code": "MDL",
+      "number": "498",
+      "decimal_places": 2,
+      "name": "Leu moldávio"
+    },
+    {
+      "code": "MGA",
+      "number": "969",
+      "decimal_places": 0,
+      "name": "Ariary"
+    },
+    {
+      "code": "MKD",
+      "number": "807",
+      "decimal_places": 2,
+      "name": "Denar Macedónia do Norte"
+    },
+    {
+      "code": "MMK",
+      "number": "104",
+      "decimal_places": 0,
+      "name": "Kyat Mianmar"
+    },
+    {
+      "code": "MNT",
+      "number": "496",
+      "decimal_places": 2,
+      "name": "Tugrik Mongólia"
+    },
+    {
+      "code": "MOP",
+      "number": "446",
+      "decimal_places": 1,
+      "name": "Pataca"
+    },
+    {
+      "code": "MRO",
+      "number": "478",
+      "decimal_places": 0,
+      "name": "Ouguiya"
+    },
+    {
+      "code": "MUR",
+      "number": "480",
+      "decimal_places": 2,
+      "name": "Rupia mauriciana"
+    },
+    {
+      "code": "MVR",
+      "number": "462",
+      "decimal_places": 2,
+      "name": "Rufiyaa"
+    },
+    {
+      "code": "MWK",
+      "number": "454",
+      "decimal_places": 2,
+      "name": "Kwacha"
+    },
+    {
+      "code": "MXN",
+      "number": "484",
+      "decimal_places": 2,
+      "name": "Peso mexicano"
+    },
+    {
+      "code": "MXV",
+      "number": "979",
+      "decimal_places": 2,
+      "name": "Unidade Mexicana de Investimento"
+    },
+    {
+      "code": "MYR",
+      "number": "458",
+      "decimal_places": 2,
+      "name": "Ringgit"
+    },
+    {
+      "code": "MZN",
+      "number": "943",
+      "decimal_places": 2,
+      "name": "Metical"
+    },
+    {
+      "code": "NAD",
+      "number": "516",
+      "decimal_places": 2,
+      "name": "Dólar da Namíbia"
+    },
+    {
+      "code": "NGN",
+      "number": "566",
+      "decimal_places": 2,
+      "name": "Naira"
+    },
+    {
+      "code": "NIO",
+      "number": "558",
+      "decimal_places": 2,
+      "name": "Cordoba Oro"
+    },
+    {
+      "code": "NOK",
+      "number": "578",
+      "decimal_places": 2,
+      "name": "Coroa norueguesa"
+    },
+    {
+      "code": "NPR",
+      "number": "524",
+      "decimal_places": 2,
+      "name": "Rupia nepalesa"
+    },
+    {
+      "code": "NZD",
+      "number": "554",
+      "decimal_places": 2,
+      "name": "Dólar da Nova Zelândia"
+    },
+    {
+      "code": "OMR",
+      "number": "512",
+      "decimal_places": 3,
+      "name": "Rial Omani"
+    },
+    {
+      "code": "PAB",
+      "number": "590",
+      "decimal_places": 2,
+      "name": "Balboa (O dólar americano USD é a moeda corrente no país)"
+    },
+    {
+      "code": "PEN",
+      "number": "604",
+      "decimal_places": 2,
+      "name": "Nuevo Sol"
+    },
+    {
+      "code": "PGK",
+      "number": "598",
+      "decimal_places": 2,
+      "name": "Kina"
+    },
+    {
+      "code": "PHP",
+      "number": "608",
+      "decimal_places": 2,
+      "name": "Peso filipino"
+    },
+    {
+      "code": "PKR",
+      "number": "586",
+      "decimal_places": 2,
+      "name": "Rupia paquistanesa"
+    },
+    {
+      "code": "PLN",
+      "number": "985",
+      "decimal_places": 2,
+      "name": "Zloty"
+    },
+    {
+      "code": "PYG",
+      "number": "600",
+      "decimal_places": 0,
+      "name": "Guarani"
+    },
+    {
+      "code": "QAR",
+      "number": "634",
+      "decimal_places": 2,
+      "name": "Rial do Qatar"
+    },
+    {
+      "code": "RON",
+      "number": "946",
+      "decimal_places": 2,
+      "name": "Leu romeno"
+    },
+    {
+      "code": "RSD",
+      "number": "941",
+      "decimal_places": 2,
+      "name": "Dinar Sérvio"
+    },
+    {
+      "code": "RUB",
+      "number": "643",
+      "decimal_places": 2,
+      "name": "Rublo"
+    },
+    {
+      "code": "RWF",
+      "number": "646",
+      "decimal_places": 0,
+      "name": "Franco do Ruanda"
+    },
+    {
+      "code": "SAR",
+      "number": "682",
+      "decimal_places": 2,
+      "name": "Riyal"
+    },
+    {
+      "code": "SBD",
+      "number": "090",
+      "decimal_places": 2,
+      "name": "Dólar das Ilhas Salomão"
+    },
+    {
+      "code": "SCR",
+      "number": "690",
+      "decimal_places": 2,
+      "name": "Rupia das Seychelles"
+    },
+    {
+      "code": "SDG",
+      "number": "938",
+      "decimal_places": 2,
+      "name": "Dinar sudanês"
+    },
+    {
+      "code": "SEK",
+      "number": "752",
+      "decimal_places": 2,
+      "name": "Coroa Sueca"
+    },
+    {
+      "code": "SGD",
+      "number": "702",
+      "decimal_places": 2,
+      "name": "Dólar de Singapura"
+    },
+    {
+      "code": "SHP",
+      "number": "654",
+      "decimal_places": 2,
+      "name": "Libra de Santa Helena"
+    },
+    {
+      "code": "SLL",
+      "number": "694",
+      "decimal_places": 0,
+      "name": "Leone"
+    },
+    {
+      "code": "SOS",
+      "number": "706",
+      "decimal_places": 2,
+      "name": "Xelim somali"
+    },
+    {
+      "code": "SRD",
+      "number": "968",
+      "decimal_places": 2,
+      "name": "Dólar do Suriname"
+    },
+    {
+      "code": "STN",
+      "number": "930",
+      "decimal_places": 2,
+      "name": "Dobra"
+    },
+    {
+      "code": "SVC",
+      "number": "222",
+      "decimal_places": 0,
+      "name": "Colon de El Salvador"
+    },
+    {
+      "code": "SYP",
+      "number": "760",
+      "decimal_places": 2,
+      "name": "Libra da Síria"
+    },
+    {
+      "code": "SZL",
+      "number": "748",
+      "decimal_places": 2,
+      "name": "Lilangeni"
+    },
+    {
+      "code": "THB",
+      "number": "764",
+      "decimal_places": 2,
+      "name": "Baht"
+    },
+    {
+      "code": "TJS",
+      "number": "972",
+      "decimal_places": 2,
+      "name": "Somoni"
+    },
+    {
+      "code": "TMT",
+      "number": "934",
+      "decimal_places": 2,
+      "name": "Manat turcomano"
+    },
+    {
+      "code": "TND",
+      "number": "788",
+      "decimal_places": 3,
+      "name": "Dinar tunisino"
+    },
+    {
+      "code": "TOP",
+      "number": "776",
+      "decimal_places": 2,
+      "name": "Pa'anga"
+    },
+    {
+      "code": "TRY",
+      "number": "949",
+      "decimal_places": 2,
+      "name": "Nova Lira turca"
+    },
+    {
+      "code": "TTD",
+      "number": "780",
+      "decimal_places": 2,
+      "name": "Dólar de Trindade e Tobago"
+    },
+    {
+      "code": "TWD",
+      "number": "901",
+      "decimal_places": 1,
+      "name": "Novo dólar de Taiwan"
+    },
+    {
+      "code": "TZS",
+      "number": "834",
+      "decimal_places": 2,
+      "name": "Xelim da Tanzânia"
+    },
+    {
+      "code": "UAH",
+      "number": "980",
+      "decimal_places": 2,
+      "name": "Grívnia"
+    },
+    {
+      "code": "UGX",
+      "number": "800",
+      "decimal_places": 0,
+      "name": "Xelim ugandês"
+    },
+    {
+      "code": "USD",
+      "number": "840",
+      "decimal_places": 2,
+      "name": "Dólar americano"
+    },
+    {
+      "code": "USN",
+      "number": "997",
+      "decimal_places": 2,
+      "name": "Dólar americano 'next day'"
+    },
+    {
+      "code": "USS",
+      "number": "998",
+      "decimal_places": 2,
+      "name": "Dólar americano 'same day'"
+    },
+    {
+      "code": "UYI",
+      "number": "940",
+      "decimal_places": 0,
+      "name": "  Peso uruguaio em Unidades"
+    },
+    {
+      "code": "UYU",
+      "number": "858",
+      "decimal_places": 2,
+      "name": "Peso uruguaio"
+    },
+    {
+      "code": "UZS",
+      "number": "860",
+      "decimal_places": 2,
+      "name": "Som uzbeque"
+    },
+    {
+      "code": "VES",
+      "number": "928",
+      "decimal_places": 2,
+      "name": "bolívar soberano venezuelano"
+    },
+    {
+      "code": "VND",
+      "number": "704",
+      "decimal_places": 0,
+      "name": "Dong"
+    },
+    {
+      "code": "VUV",
+      "number": "548",
+      "decimal_places": 0,
+      "name": "Vatu"
+    },
+    {
+      "code": "WST",
+      "number": "882",
+      "decimal_places": 2,
+      "name": "Tala"
+    },
+    {
+      "code": "XAF",
+      "number": "950",
+      "decimal_places": 0,
+      "name": "Franco CFA central"
+    },
+    {
+      "code": "XAG",
+      "number": "961",
+      "decimal_places": 0,
+      "name": "Prata uma onça"
+    },
+    {
+      "code": "XAU",
+      "number": "959",
+      "decimal_places": 0,
+      "name": "Ouro uma onça"
+    },
+    {
+      "code": "XBA",
+      "number": "955",
+      "decimal_places": 0,
+      "name": "European Composite Unit (EURCO) (unidade de mercado de títulos)"
+    },
+    {
+      "code": "XBB",
+      "number": "956",
+      "decimal_places": 0,
+      "name": "European Monetary Unit (E.M.U.-6) (unidade de mercado de títulos)"
+    },
+    {
+      "code": "XBC",
+      "number": "957",
+      "decimal_places": 0,
+      "name": "European Unit of Account 9 (E.U.A.-9) (unidade de mercado de títulos)"
+    },
+    {
+      "code": "XBD",
+      "number": "958",
+      "decimal_places": 0,
+      "name": "European Unit of Account 17 (E.U.A.-17) (unidade de mercado de títulos)"
+    },
+    {
+      "code": "XCD",
+      "number": "951",
+      "decimal_places": 2,
+      "name": "Dólar das Caraíbas Orientais"
+    },
+    {
+      "code": "XDR",
+      "number": "960",
+      "decimal_places": 0,
+      "name": "Special Drawing Rights"
+    },
+    {
+      "code": "XFU",
+      "number": "Nil",
+      "decimal_places": 0,
+      "name": "UIC franc (moeda de liquidação especial)"
+    },
+    {
+      "code": "XOF",
+      "number": "952",
+      "decimal_places": 0,
+      "name": "Franco CFA ocidental"
+    },
+    {
+      "code": "XPD",
+      "number": "964",
+      "decimal_places": 0,
+      "name": "Paládio uma onça Troy"
+    },
+    {
+      "code": "XPF",
+      "number": "953",
+      "decimal_places": 0,
+      "name": "Franco CFP"
+    },
+    {
+      "code": "XPT",
+      "number": "962",
+      "decimal_places": 0,
+      "name": "Platina uma onça Troy"
+    },
+    {
+      "code": "XTS",
+      "number": "963",
+      "decimal_places": 0,
+      "name": "Sem moeda"
+    },
+    {
+      "code": "XXX",
+      "number": "999",
+      "decimal_places": 0,
+      "name": "Sem moeda"
+    },
+    {
+      "code": "YER",
+      "number": "886",
+      "decimal_places": 0,
+      "name": "Rial iemenita"
+    },
+    {
+      "code": "ZAR",
+      "number": "710",
+      "decimal_places": 2,
+      "name": "Rand"
+    },
+    {
+      "code": "ZMW",
+      "number": "894",
+      "decimal_places": 0,
+      "name": "Kwacha"
+    },
+    {
+      "code": "ZWL",
+      "number": "932",
+      "decimal_places": 2,
+      "name": "Dólar zimbabuano"
+    }
+  ]
+}
