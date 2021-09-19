@@ -47,6 +47,7 @@ defmodule StoneMarkets.MixProject do
       {:gettext, "~> 0.11"},
       {:hackney, "~> 1.17"},
       {:jason, "~> 1.0"},
+      {:memoize, "~> 1.4"},
       {:mox, "~> 1.0", only: :test},
       {:phoenix, "~> 1.5.8"},
       {:phoenix_ecto, "~> 4.1"},
