@@ -1,12 +1,36 @@
 defmodule StoneMarketsWeb.Router do
   use StoneMarketsWeb, :router
 
+  alias StoneMarketsWeb.Plugs.UUIDChecker
+  alias StoneMarketsWeb.Plugs.StorageSigned
+
   pipeline :api do
     plug :accepts, ["json"]
+    plug UUIDChecker
+  end
+
+  pipeline :auth do
+    plug StoneMarketsWeb.Auth.Pipeline
+    plug StorageSigned
   end
 
   scope "/api", StoneMarketsWeb do
     pipe_through :api
+
+    resources "/auth", AuthController, only: ~w(create)a
+    resources "/currencies", CurrencyController, only: ~w(index)a
+    resources "/customers", CustomerController, only: ~w(create)a
+    resources "/marketplaces", MarketplaceController, only: ~w(index update)a
+  end
+
+  scope "/api", StoneMarketsWeb do
+    pipe_through [:auth, :api]
+
+    post "/customers/:id/deposit", CustomerController, :deposit
+    resources "/customers", CustomerController, only: ~w(show)a
+    resources "/orders", OrderController, only: ~w(create)a
+    resources "/products", ProductController, only: ~w(index show)a
+    resources "/shopkeepers", ShopkeeperController, only: ~w(index show)a
   end
 
   # Enables LiveDashboard only for development
