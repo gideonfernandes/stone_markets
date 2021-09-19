@@ -18,5 +18,8 @@ config :stone_markets, StoneMarketsWeb.Endpoint,
   http: [port: 4002],
   server: false
 
+config :stone_markets, StoneMarkets.ExchangeCurrency,
+  exchangerate_api_adapter: StoneMarkets.ExchangerateApi.ClientMock
+
 # Print only warnings and errors during test
 config :logger, level: :warn

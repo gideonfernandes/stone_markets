@@ -45,14 +45,17 @@ defmodule StoneMarkets.MixProject do
       {:ecto_sql, "~> 3.7.0"},
       {:excoveralls, "~> 0.10", only: :test},
       {:gettext, "~> 0.11"},
+      {:hackney, "~> 1.17"},
       {:jason, "~> 1.0"},
+      {:mox, "~> 1.0", only: :test},
       {:phoenix, "~> 1.5.8"},
       {:phoenix_ecto, "~> 4.1"},
       {:phoenix_live_dashboard, "~> 0.4"},
       {:plug_cowboy, "~> 2.0"},
       {:postgrex, ">= 0.0.0"},
       {:telemetry_metrics, "~> 0.4"},
-      {:telemetry_poller, "~> 0.4"}
+      {:telemetry_poller, "~> 0.4"},
+      {:tesla, "~> 1.4.3"}
     ]
   end
 

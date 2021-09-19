@@ -14,6 +14,9 @@ config :stone_markets, StoneMarkets.Repo,
   migration_primary_key: [type: :binary_id],
   migration_foreign_key: [type: :binary_id]
 
+config :stone_markets, StoneMarkets.ExchangeCurrency,
+  exchangerate_api_adapter: StoneMarkets.ExchangerateApi.Client
+
 # Configures the endpoint
 config :stone_markets, StoneMarketsWeb.Endpoint,
   url: [host: "localhost"],

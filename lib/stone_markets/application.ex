@@ -7,6 +7,8 @@ defmodule StoneMarkets.Application do
 
   def start(_type, _args) do
     children = [
+      # Start the BackgroundStorage agent
+      StoneMarkets.BackgroundStorage,
       # Start the Ecto repository
       StoneMarkets.Repo,
       # Start the Telemetry supervisor
