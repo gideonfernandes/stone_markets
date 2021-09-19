@@ -1,4 +1,9 @@
 defmodule StoneMarkets.Marketplaces.CurrencyConvertWorker do
+  @moduledoc """
+  This module is responsible for executing all the necessary currency exchanges
+  after the currency exchange of a market.
+  """
+
   use GenServer
 
   require Logger

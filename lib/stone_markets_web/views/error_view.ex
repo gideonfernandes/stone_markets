@@ -1,4 +1,8 @@
 defmodule StoneMarketsWeb.ErrorView do
+  @moduledoc """
+  This module is responsible for rendering all error-related resource.
+  """
+
   use StoneMarketsWeb, :view
 
   alias Ecto.Changeset

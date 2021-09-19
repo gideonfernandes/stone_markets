@@ -1,4 +1,11 @@
 defmodule StoneMarkets.Orders.TransactionsWorker do
+  @moduledoc """
+  This module is responsible for executing all necessary transactions
+  after a newly created order and is also responsible for executing background
+  work runner that finds all requested orders that have not yet been processed for some
+  reason and processes them.
+  """
+
   use GenServer
 
   import Ecto.Query, only: [from: 2]

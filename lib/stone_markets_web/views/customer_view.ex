@@ -1,4 +1,8 @@
 defmodule StoneMarketsWeb.CustomerView do
+  @moduledoc """
+  This module is responsible for rendering all currency-related resource.
+  """
+
   use StoneMarketsWeb, :view
 
   alias StoneMarkets.Customer

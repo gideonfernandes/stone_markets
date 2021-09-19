@@ -1,4 +1,9 @@
 defmodule StoneMarkets.ExchangerateApi.Client do
+  @moduledoc """
+  This module is responsable for fetch currency exchange value informations
+  provided by the ExchangerateAPI.
+  """
+
   use Tesla
 
   alias StoneMarkets.{BackgroundStorage, FallbackError}

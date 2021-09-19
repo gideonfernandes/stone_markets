@@ -1,4 +1,9 @@
 defmodule StoneMarkets.Marketplaces.Operations.ConvertProductPrices do
+  @moduledoc """
+  This module is responsible for exchanging all product prices after changing the
+  currency of a market, it changes only the accounts that are linked to this market.
+  """
+
   import Ecto.Query, only: [from: 2]
 
   alias StoneMarkets.Marketplaces.Operations.CalculateExchange

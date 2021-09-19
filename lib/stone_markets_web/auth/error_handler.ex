@@ -1,4 +1,8 @@
 defmodule StoneMarketsWeb.Auth.ErrorHandler do
+  @moduledoc """
+  This module is responsible for handle auth request errors for the Auth pipeline.
+  """
+
   alias Guardian.Plug.ErrorHandler
   alias Plug.Conn
 

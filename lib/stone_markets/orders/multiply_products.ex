@@ -1,4 +1,10 @@
 defmodule StoneMarkets.Orders.MultiplyProducts do
+  @moduledoc """
+  This module is responsible for multiplying the products by the incoming
+  product params, considering the product founded by ID an the input products
+  amount requested.
+  """
+
   import Ecto.Query, only: [from: 2]
 
   alias StoneMarkets.{Product, Repo}

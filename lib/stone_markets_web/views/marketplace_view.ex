@@ -1,4 +1,8 @@
 defmodule StoneMarketsWeb.MarketplaceView do
+  @moduledoc """
+  This module is responsible for rendering all marketplace-related resource.
+  """
+
   use StoneMarketsWeb, :view
 
   alias StoneMarkets.Marketplace

@@ -1,4 +1,9 @@
 defmodule StoneMarkets.Orders.Create do
+  @moduledoc """
+  This module is responsible for creating a new order, passing through
+  all validations before doing so.
+  """
+
   alias Ecto.Changeset
   alias StoneMarkets.{FallbackError, Order, Repo}
   alias StoneMarkets.Orders.{CalculateTotalValue, CheckCustomerPurchasingPower, MultiplyProducts}

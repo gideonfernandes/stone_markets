@@ -1,4 +1,8 @@
 defmodule StoneMarkets.OrderProduct do
+  @moduledoc """
+   This module is responsable for mapping any data source into a OrderProduct struct.
+  """
+
   use Ecto.Schema
 
   import Ecto.Changeset

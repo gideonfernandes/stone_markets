@@ -1,4 +1,8 @@
 defmodule StoneMarketsWeb.ShopkeeperView do
+  @moduledoc """
+  This module is responsible for rendering all shopkeeper-related resource.
+  """
+
   use StoneMarketsWeb, :view
 
   alias StoneMarkets.Shopkeeper

@@ -1,4 +1,8 @@
 defmodule StoneMarkets.Accounts.Deposit do
+  @moduledoc """
+  This module is responsible for depositing an amount to a system account.
+  """
+
   alias Ecto.Changeset
   alias StoneMarkets.{Arithmetic, FallbackError, Repo}
   alias StoneMarkets.Errors.{IsNotANumber, IsRequired}

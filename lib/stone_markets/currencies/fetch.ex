@@ -1,4 +1,8 @@
 defmodule StoneMarkets.Currencies.Fetch do
+  @moduledoc """
+  This module is responsible for fetch a currency by the provided ID.
+  """
+
   alias StoneMarkets.{Currency, Repo}
   alias StoneMarkets.Errors.ResourceNotFound
 

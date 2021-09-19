@@ -1,6 +1,6 @@
 defmodule StoneMarkets.Marketplaces.Import do
   @moduledoc """
-  This module imports all Marketplaces from json fixture file
+  This module is responsable for imports all marketplaces from json fixture file.
   """
 
   def call do

@@ -1,4 +1,8 @@
 defmodule StoneMarkets.Shopkeepers.Fetch do
+  @moduledoc """
+  This module is responsible for fetch a shopkeeper by the provided ID.
+  """
+
   alias StoneMarkets.Errors.ResourceNotFound
   alias StoneMarkets.{FallbackError, Repo, Shopkeeper}
 

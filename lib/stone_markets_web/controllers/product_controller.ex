@@ -1,4 +1,9 @@
 defmodule StoneMarketsWeb.ProductController do
+  @moduledoc """
+  This module is responsible for controlling and handling all product-related
+  requests, calling the corresponding business logic module to perform the requested actions.
+  """
+
   use StoneMarketsWeb, :controller
 
   alias StoneMarkets.Product

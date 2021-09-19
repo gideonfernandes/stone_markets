@@ -1,4 +1,9 @@
 defmodule StoneMarketsWeb.MarketplaceController do
+  @moduledoc """
+  This module is responsible for controlling and handling all marketplace-related
+  requests, calling the corresponding business logic module to perform the requested actions.
+  """
+
   use StoneMarketsWeb, :controller
 
   alias StoneMarkets.Marketplace

@@ -1,4 +1,8 @@
 defmodule StoneMarkets.Orders.Inputs.CreateOrderSchema do
+  @moduledoc """
+  This module is responsible for casting and validating the create params of a order.
+  """
+
   use Ecto.Schema
 
   import Ecto.Changeset

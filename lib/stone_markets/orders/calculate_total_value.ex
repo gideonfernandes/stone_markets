@@ -1,4 +1,9 @@
 defmodule StoneMarkets.Orders.CalculateTotalValue do
+  @moduledoc """
+  This module is responsible for calculating the order total value
+  considering the requested products.
+  """
+
   def call(products) do
     {:ok,
      products

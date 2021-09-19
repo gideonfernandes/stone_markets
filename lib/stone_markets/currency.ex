@@ -1,4 +1,8 @@
 defmodule StoneMarkets.Currency do
+  @moduledoc """
+   This module is responsable for mapping any data source into a Currency struct.
+  """
+
   use Ecto.Schema
 
   import Ecto.Changeset

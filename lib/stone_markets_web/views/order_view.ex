@@ -1,4 +1,8 @@
 defmodule StoneMarketsWeb.OrderView do
+  @moduledoc """
+  This module is responsible for rendering all order-related resource.
+  """
+
   use StoneMarketsWeb, :view
 
   alias StoneMarkets.Order

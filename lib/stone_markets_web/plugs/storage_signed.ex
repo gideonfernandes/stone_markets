@@ -1,4 +1,9 @@
 defmodule StoneMarketsWeb.Plugs.StorageSigned do
+  @moduledoc """
+  This module is responsible for storing the client signed in, after requesting a
+  private route, acting before calling the controller of the requested resource.
+  """
+
   import Plug.Conn
 
   alias StoneMarkets.BackgroundStorage

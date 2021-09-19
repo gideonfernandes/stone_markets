@@ -1,4 +1,9 @@
 defmodule StoneMarketsWeb.CurrencyController do
+  @moduledoc """
+  This module is responsible for controlling and handling all currency-related
+  requests, calling the corresponding business logic module to perform the requested actions.
+  """
+
   use StoneMarketsWeb, :controller
 
   alias StoneMarketsWeb.FallbackController

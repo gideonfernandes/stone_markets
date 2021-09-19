@@ -1,4 +1,8 @@
 defmodule StoneMarkets.Customer do
+  @moduledoc """
+   This module is responsable for mapping any data source into a Customer struct.
+  """
+
   use Ecto.Schema
 
   import Ecto.Changeset

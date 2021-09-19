@@ -1,4 +1,10 @@
 defmodule StoneMarkets.ExchangeCurrency do
+  @moduledoc """
+  This module is responsible for exchanging a currency value considering the
+  from_currency, to_currency and the requested value. Attempts to fetch the last exchange
+  rate for from_currency stored in the BackgroundStorage Agent to avoid unnecessary requests.
+  """
+
   alias StoneMarkets.{Arithmetic, BackgroundStorage}
   alias StoneMarkets.Errors.InvalidArgs
 

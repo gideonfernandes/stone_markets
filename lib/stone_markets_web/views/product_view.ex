@@ -1,4 +1,8 @@
 defmodule StoneMarketsWeb.ProductView do
+  @moduledoc """
+  This module is responsible for rendering all product-related resource.
+  """
+
   use StoneMarketsWeb, :view
 
   alias StoneMarkets.Product

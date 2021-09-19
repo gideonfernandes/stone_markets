@@ -1,4 +1,9 @@
 defmodule StoneMarketsWeb.Plugs.UUIDChecker do
+  @moduledoc """
+  This module is responsible for validate if any id or resource_id requested
+  in the params are a valid UUID.
+  """
+
   import Plug.Conn
 
   alias Ecto.UUID

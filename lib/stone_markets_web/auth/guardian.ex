@@ -1,4 +1,9 @@
 defmodule StoneMarketsWeb.Auth.Guardian do
+  @moduledoc """
+  This module is responsible for handle auth request signatures and checks
+  for the Auth pipeline.
+  """
+
   use Guardian, otp_app: :stone_markets
 
   alias StoneMarkets.{Customer, FallbackError}

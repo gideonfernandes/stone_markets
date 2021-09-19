@@ -1,6 +1,6 @@
 defmodule StoneMarkets.Products.Import do
   @moduledoc """
-  This module imports all Products from json fixture file
+  This module is responsable for imports all products from json fixture file.
   """
 
   import Ecto.Query, only: [from: 2]

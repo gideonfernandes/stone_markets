@@ -1,4 +1,8 @@
 defmodule StoneMarkets.Shopkeepers.Index do
+  @moduledoc """
+  This module is responsable for imports all shopkeepers from json fixture file.
+  """
+
   import Ecto.Query
 
   alias StoneMarkets.{BackgroundStorage, Repo, Shopkeeper}

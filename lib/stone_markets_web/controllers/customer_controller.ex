@@ -1,4 +1,9 @@
 defmodule StoneMarketsWeb.CustomerController do
+  @moduledoc """
+  This module is responsible for controlling and handling all customer-related
+  requests, calling the corresponding business logic module to perform the requested actions.
+  """
+
   use StoneMarketsWeb, :controller
 
   alias StoneMarkets.{Account, BackgroundStorage}

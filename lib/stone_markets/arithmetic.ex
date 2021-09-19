@@ -1,4 +1,9 @@
 defmodule StoneMarkets.Arithmetic do
+  @moduledoc """
+  This module is responsible for casting, converting and deconverting numerical values
+  to perform arithmetic calculations after transforming floating values ​​to integers.
+  """
+
   @enforce_keys ~w(conversor original precision value)a
 
   defstruct @enforce_keys

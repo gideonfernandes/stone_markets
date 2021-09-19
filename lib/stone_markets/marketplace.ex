@@ -1,4 +1,8 @@
 defmodule StoneMarkets.Marketplace do
+  @moduledoc """
+   This module is responsable for mapping any data source into a Marketplace struct.
+  """
+
   use Ecto.Schema
 
   import Ecto.Changeset

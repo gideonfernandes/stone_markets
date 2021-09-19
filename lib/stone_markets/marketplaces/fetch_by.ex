@@ -1,4 +1,8 @@
 defmodule StoneMarkets.Marketplaces.FetchBy do
+  @moduledoc """
+  This module is responsible for fetch a marketplace by the provided attribute.
+  """
+
   alias StoneMarkets.Errors.ResourceNotFound
   alias StoneMarkets.{FallbackError, Marketplace, Repo}
 

@@ -1,4 +1,9 @@
 defmodule StoneMarkets.Customers.Create do
+  @moduledoc """
+  This module is responsible for creating a new customer and also
+  inserting an account linked to it.
+  """
+
   alias Ecto.Multi
   alias StoneMarkets.{Customer, FallbackError, Repo}
 

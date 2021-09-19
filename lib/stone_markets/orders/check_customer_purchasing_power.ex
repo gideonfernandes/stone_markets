@@ -1,4 +1,9 @@
 defmodule StoneMarkets.Orders.CheckCustomerPurchasingPower do
+  @moduledoc """
+  This module is responsible for validating if the buyer customer has
+  enough money to actually purchase the newly ordered order.
+  """
+
   alias StoneMarkets.Customer
   alias StoneMarkets.Errors.CustomerDoesNotHaveEnoughMoney
 

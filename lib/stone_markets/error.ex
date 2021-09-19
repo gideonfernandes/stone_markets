@@ -1,4 +1,8 @@
 defmodule StoneMarkets.Error do
+  @moduledoc """
+  This module is responsible for building an Error struct with the reason & status error.
+  """
+
   @keys ~w(result status)a
 
   @enforce_keys @keys

@@ -1,4 +1,8 @@
 defmodule StoneMarkets.Products.Index do
+  @moduledoc """
+  This module is responsable for imports all products from json fixture file.
+  """
+
   import Ecto.Query, only: [from: 2]
 
   alias StoneMarkets.{BackgroundStorage, Product, Repo}

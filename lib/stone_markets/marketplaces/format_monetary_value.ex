@@ -1,4 +1,10 @@
 defmodule StoneMarkets.Marketplaces.FormatMonetaryValue do
+  @moduledoc """
+  This module is responsible for formatting an incoming number into a monetary string,
+  considering the current currency of the market linked to the signed customer.
+  It memorizes the last currency fetched by the signed customer to avoid unnecessary queries.
+  """
+
   use Memoize
   alias StoneMarkets.{Arithmetic, BackgroundStorage, Repo}
 

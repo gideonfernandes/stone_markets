@@ -1,4 +1,10 @@
 defmodule StoneMarkets.BackgroundStorage do
+  @moduledoc """
+  This module is responsible for storing values ​​in the background to fetch them
+  at any time necessary, it is possible to fetch stored data by key, all values ​​at once,
+  clear data, update, etc.
+  """
+
   use Agent
 
   alias StoneMarkets.Customer

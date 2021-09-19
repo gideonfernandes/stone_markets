@@ -1,4 +1,8 @@
 defmodule StoneMarkets.Customers.FetchBy do
+  @moduledoc """
+  This module is responsible for fetch an customer by the provided attribute.
+  """
+
   alias StoneMarkets.{Customer, FallbackError, Repo}
   alias StoneMarkets.Errors.ResourceNotFound
 

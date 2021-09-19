@@ -1,4 +1,9 @@
 defmodule StoneMarkets.Marketplaces.Update do
+  @moduledoc """
+  This module is responsible for updating the current market currency
+  of the market found by the ID.
+  """
+
   alias StoneMarkets.{FallbackError, Marketplace, Repo}
 
   alias StoneMarkets.Errors.{

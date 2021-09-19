@@ -1,6 +1,6 @@
 defmodule StoneMarkets.Shopkeepers.Import do
   @moduledoc """
-  This module imports all Shopkeepers from json fixture file
+  This module is responsable for imports all shopkeepers from json fixture file.
   """
 
   def call do

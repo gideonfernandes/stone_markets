@@ -1,4 +1,9 @@
 defmodule StoneMarketsWeb.AuthController do
+  @moduledoc """
+  This module is responsible for controlling and handling all authentication-related
+  requests, calling the corresponding business logic module to perform the requested actions.
+  """
+
   use StoneMarketsWeb, :controller
 
   alias StoneMarkets.{BackgroundStorage, Customer}

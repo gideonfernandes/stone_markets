@@ -1,4 +1,8 @@
 defmodule StoneMarkets.Products.Create do
+  @moduledoc """
+  This module is responsible for creating a new product.
+  """
+
   import Ecto.Changeset, only: [change: 2]
 
   alias Ecto.Changeset

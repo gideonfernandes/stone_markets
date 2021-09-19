@@ -1,4 +1,8 @@
 defmodule StoneMarkets.Orders.Operations.ChargeCustomer do
+  @moduledoc """
+  This module is responsible for charging the customer that requested a new order.
+  """
+
   import Ecto.Changeset, only: [change: 2]
 
   alias StoneMarkets.{Customer, Repo}

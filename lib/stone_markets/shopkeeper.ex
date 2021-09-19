@@ -1,4 +1,8 @@
 defmodule StoneMarkets.Shopkeeper do
+  @moduledoc """
+   This module is responsable for mapping any data source into a Shopkeeper struct.
+  """
+
   use Ecto.Schema
 
   import Ecto.Changeset

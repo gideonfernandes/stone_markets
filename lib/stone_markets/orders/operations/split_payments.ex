@@ -1,4 +1,9 @@
 defmodule StoneMarkets.Orders.Operations.SplitPayments do
+  @moduledoc """
+  This module is responsible for paying all shopkeepers who own the
+  products sold in the requested order.
+  """
+
   import Ecto.Changeset, only: [change: 2]
 
   alias StoneMarkets.{Account, Order, Repo}

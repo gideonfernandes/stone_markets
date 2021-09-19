@@ -1,4 +1,9 @@
 defmodule StoneMarkets.FallbackError do
+  @moduledoc """
+  This module is responsible for handle business logic errors and send
+  them to the fallback controller indirecting.
+  """
+
   alias Ecto.Changeset
   alias StoneMarkets.Error
 

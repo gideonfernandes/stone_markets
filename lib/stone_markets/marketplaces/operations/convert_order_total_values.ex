@@ -1,4 +1,9 @@
 defmodule StoneMarkets.Marketplaces.Operations.ConvertOrderTotalValues do
+  @moduledoc """
+  This module is responsible for exchanging all order total values after changing the
+  currency of a market, it changes only the accounts that are linked to this market.
+  """
+
   import Ecto.Query, only: [from: 2]
 
   alias StoneMarkets.Marketplaces.Operations.CalculateExchange
