@@ -17,6 +17,14 @@ config :stone_markets, StoneMarkets.Repo,
 config :stone_markets, StoneMarkets.ExchangeCurrency,
   exchangerate_api_adapter: StoneMarkets.ExchangerateApi.Client
 
+config :stone_markets, StoneMarketsWeb.Auth.Guardian,
+  issuer: "stone_markets",
+  secret_key: "TXXAFr6h/o26LsHDdZWvX3izhZpRzHsHtsqLhfMPwYhHn4Wh7yTySKjHZFc+t9zb"
+
+config :stone_markets, StoneMarketsWeb.Auth.Pipeline,
+  module: StoneMarketsWeb.Auth.Guardian,
+  error_handler: StoneMarketsWeb.Auth.ErrorHandler
+
 # Configures the endpoint
 config :stone_markets, StoneMarketsWeb.Endpoint,
   url: [host: "localhost"],
