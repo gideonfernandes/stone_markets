@@ -1,6 +1,6 @@
 defmodule StoneMarkets.Marketplace do
   @moduledoc """
-   This module is responsable for mapping any data source into a Marketplace struct.
+   This module is responsible for mapping any data source into a Marketplace struct.
   """
 
   use Ecto.Schema
@@ -35,7 +35,7 @@ defmodule StoneMarkets.Marketplace do
     marketplace
     |> cast(attrs, @required_fields)
     |> validate_required(@required_fields)
-    |> validate_format(:email, ~r/@/)
+    |> validate_format(:email, StoneMarkets.email_regex())
     |> validate_length(:name, min: 3)
     |> validate_length(:nickname, min: 3)
     |> unique_constraint(:email)

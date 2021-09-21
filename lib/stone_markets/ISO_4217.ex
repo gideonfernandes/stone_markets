@@ -1,6 +1,6 @@
 defmodule StoneMarkets.ISO4217 do
   @moduledoc """
-   This module is responsable convert an number to the a monetary string.
+  This module is responsible for converting a number to monetary string.
   """
 
   alias StoneMarkets.Currency

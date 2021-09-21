@@ -1,6 +1,6 @@
 defmodule StoneMarkets.Product do
   @moduledoc """
-   This module is responsable for mapping any data source into a Product struct.
+   This module is responsible for mapping any data source into a Product struct.
   """
 
   use Ecto.{Rescope, Schema}

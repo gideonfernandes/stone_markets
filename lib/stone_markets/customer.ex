@@ -1,6 +1,6 @@
 defmodule StoneMarkets.Customer do
   @moduledoc """
-   This module is responsable for mapping any data source into a Customer struct.
+   This module is responsible for mapping any data source into a Customer struct.
   """
 
   use Ecto.Schema
@@ -40,7 +40,7 @@ defmodule StoneMarkets.Customer do
     |> validate_required(@required_fields)
     |> validate_number(:age, greater_than_or_equal_to: 18)
     |> validate_length(:cpf, is: 11)
-    |> validate_format(:email, ~r/@/)
+    |> validate_format(:email, StoneMarkets.email_regex())
     |> validate_length(:name, min: 3)
     |> validate_length(:nickname, min: 3)
     |> validate_length(:password, min: 6)

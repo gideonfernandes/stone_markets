@@ -48,4 +48,5 @@ defmodule StoneMarkets do
   defdelegate create_shopkeeper(params), to: CreateShopkeeper, as: :call
   defdelegate fetch_shopkeeper(id), to: FetchShopkeeper, as: :call
   defdelegate shopkeepers(params), to: IndexShopkeepers, as: :call
+  defdelegate email_regex, to: StoneMarkets.Regex, as: :email
 end

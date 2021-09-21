@@ -1,6 +1,6 @@
 defmodule StoneMarkets.Currencies.Import do
   @moduledoc """
-  This module is responsable for imports all currencies from json fixture file.
+  This module is responsible for imports all currencies from json fixture file.
   """
 
   alias StoneMarkets.{Currency, Repo}

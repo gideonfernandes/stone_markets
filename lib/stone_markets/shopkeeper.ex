@@ -1,6 +1,6 @@
 defmodule StoneMarkets.Shopkeeper do
   @moduledoc """
-   This module is responsable for mapping any data source into a Shopkeeper struct.
+   This module is responsible for mapping any data source into a Shopkeeper struct.
   """
 
   use Ecto.Schema
@@ -32,7 +32,7 @@ defmodule StoneMarkets.Shopkeeper do
     shopkeeper
     |> cast(attrs, @required_fields)
     |> validate_required(@required_fields)
-    |> validate_format(:email, ~r/@/)
+    |> validate_format(:email, StoneMarkets.email_regex())
     |> validate_length(:name, min: 3)
     |> validate_length(:nickname, min: 3)
     |> unique_constraint([:marketplace_id, :email])

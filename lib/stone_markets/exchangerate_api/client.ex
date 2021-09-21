@@ -1,6 +1,6 @@
 defmodule StoneMarkets.ExchangerateApi.Client do
   @moduledoc """
-  This module is responsable for fetch currency exchange value informations
+  This module is responsible for fetch currency exchange value informations
   provided by the ExchangerateAPI.
   """
 
